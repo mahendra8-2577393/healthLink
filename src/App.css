@@ -1,39 +1,64 @@
-.App {
-  text-align: center;
+.app {
+    background-image: url("./assets/back.avif");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
   
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .login-container {
+    background: #cfd6df;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .login-container h1 {
+    margin-bottom: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .login-container input {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
   }
-}
+  
+  .login-container button {
+    background: #4c68d7;
+    color: white;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-container .separator {
+    color: #999;
+    margin: 1rem 0;
+  }
+  
+  .language-selector {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .language-selector button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .language-selector button:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
+  /* Additional styling can be added to match the exact design in the image */
