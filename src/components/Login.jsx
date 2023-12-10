@@ -23,7 +23,7 @@ const Login = () => {
   };
 
   return (
-    <div className="app">
+    <div className="login">
       <div className="login-container">
         <h1 className="text-4xl">HealthLink</h1>
          <form>
@@ -35,7 +35,7 @@ const Login = () => {
           onChange={handleInputChange}
         />
         <button onClick={handleNextClick}>Next</button>
-        <div className="separator">or</div>
+        <div className="separator text-white text-2xl">or</div>
         <button onClick={handleSignUpClick}>Sign Up</button>
          </form>
         
